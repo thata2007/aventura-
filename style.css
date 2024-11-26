@@ -1,0 +1,63 @@
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #9c27b0, #f50057);  /* Degradê roxo para rosa */
+    margin: 0;
+    padding: 0;
+    color: #fff;  /* Cor do texto em branco para contraste */
+}
+
+/* Estilo principal do container da história */
+#historia {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);  /* Fundo branco semitransparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 24px;
+    color: #9c27b0;  /* Cor roxa para o título */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);  /* Sombra sutil para destacar o título */
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #f50057;  /* Cor rosa vibrante para os botões */
+    color: white;
+    padding: 12px 24px;
+    margin: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover para os botões */
+button:hover {
+    background-color: #d500f9;  /* Um tom de roxo para quando o botão for clicado */
+}
+
+/* Estilo das opções de botões */
+#opcoes button {
+    margin: 12px;
+}
+
+/* Estilo da área da imagem */
+#imagem-cenario {
+    margin: 20px 0;
+}
+
+/* Estilo da imagem da história */
+#imagem-historia {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;  /* Bordas arredondadas para uma aparência mais suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave para dar destaque à imagem */
+}
